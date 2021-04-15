@@ -93,7 +93,7 @@ a{
 {
     margin-top: 10px;
  text-align: center;
- padding: 20px;
+ padding: 50px;
  
 }
 h2{
@@ -146,6 +146,7 @@ input {
     text-transform: uppercase;
     letter-spacing: 2px;
     
+    
 }
 .checkout a {
     color: #fff;
@@ -153,8 +154,13 @@ input {
 .bottom
 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
+    
 
+}
+.col-qty
+{
+    margin-left: 80px;
 }
   
 
