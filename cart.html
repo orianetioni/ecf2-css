@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="cart.css">
+    <title>shop</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <img class="logo" src="./media/logo.png" alt="Logo Hero"/>
+          <div class="burger"><i class="fas fa-bars"></i></div>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href ="cart.html"></li> SHOP</a>  <i class="fas fa-sort-down"></i>
+            <li><a href="#">JOURNAL</a></li>
+            <li> <a href="#">MORE </a><i class="fas fa-sort-down" ></i></li>
+          </ul>
+          
+          <div class="cart">
+           <div class="shop"><i class="fas fa-shopping-bag"> (2)</i></div> 
+            <span class="mycart">MY CART (2) <i class="fas fa-sort-down"></i> </span>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+          <p class="title">
+            Shopping Cart
+          </p>
+             
+          <div class="cart-transition">
+            
+           <div class="table">
+              
+              <div class="layout-inline row th">
+                  <div class="col col-pro">Product</div>
+                  <div class="col col-qty align-center">Quantity</div>
+                  <div class="col">Total</div>
+                  <div class="col-action align-center">Action</div>
+              </div> 
+          </div>
+          <hr class="view">
+          <article>
+            <div class="layout-inline row">
+                <div class="col col-pro layout-inline">
+                  <img src="media/hand-painted-blue-flat-dish.jpg" />
+                  <p>
+                    Kiriko<br>
+                    <span>HAND PAINTED BLUE FLAT DISHES</span><br>
+                    COLOR: <span>WHITE</span>
+                  </p>
+
+                </div>
+               
+                <div class=" col-qty">
+                  <input class="quantity text-center" min="0" name="quantity" placeholder="1"  value="" type="number">
+                </div>
+                  <div class=" plus-minus">
+                  <button class="plus">+</button>
+                  <button class="minus">-</button>
+               </div>
+              
+                <div class="col col-total col-numeric">              
+                   <p class="price">$28.00</p>
+                </div>
+                <div class=" col cross ">
+                  <img src="media/thin-cross.png" alt="" width="25" class="cross-del">
+              </div>
+              
+              </div>
+            </article>
+            <hr>
+            <article>
+              <div class="layout-inline row ">
+                  <div class="col col-pro layout-inline">
+                      <img src="media/mashiko-yaki-indigo-small-plate.jpg" />
+                    <p>
+                      Kiriko<br>
+                    <span>MASHIKO-YAKI INDIGO SMALL PLATE</span><br>
+                    </p>
+                  
+  
+                  </div>
+                  <div class=" col-qty">
+                    <input class="quantity text-center" min="0" name="quantity" placeholder="1"  value="" type="number">
+                  </div>
+                    <div class=" plus-minus">
+                    <button class="plus">+</button>
+                    <button class="minus">-</button>
+                
+                  </div>
+                  <div class="col col-total col-numeric">              
+                     <p class="price">$28.00</p>
+                  </div>
+                  <div class=" col cross ">
+                    <img src="media/thin-cross.png" alt="" width="25" class="cross-del">
+                </div>
+                
+                </div>
+              </article>
+
+
+            
+            <hr>
+            <article>
+            <div class="tf">
+                 <div class="row layout-inline">
+                   <div class="col">
+                     <p>Cart overview</p>
+                   </div>
+                   <div class="col"></div>
+                 </div>
+                 <div class="row layout-inline">
+                   <div class="col">
+                     <p>Subtotal</p>
+                   </div>
+                   <div class="col"></div>
+                 </div>
+                  <div class="row layout-inline">
+                   <div class="col">
+                     <p>Total</p>
+                   </div>
+                   <div class="col"></div>
+                 </div>
+               </div>  
+         </article>
+         <hr>
+         <article>
+          <div class="total-price">
+                <span class="continue">continue shopping</span>
+                
+                <a class="btn-format btn">checkout ($56.00)</a>
+            </div>
+         </article>
+        </main>
+         
+        
+        
+  </body>
+</html>
